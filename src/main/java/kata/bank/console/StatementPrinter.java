@@ -44,9 +44,4 @@ public class StatementPrinter {
 
     }
 
-    public static void main(String... args) {
-        System.out.format("%16s%16s%16s%16s%16s", "date", "ref", "withdrawal", "deposit", "balance");
-        System.out.println();
-        System.out.format("%16s%16s%16s%16s%16s", "22-09-2021", "29393949", "200", "", "100");
-    }
 }
